@@ -1,0 +1,24 @@
+﻿<Window x:Class="AuctionHouse.View.NewProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AuctionHouse.View"
+        mc:Ignorable="d"
+        Title="NewProduct" Height="450" Width="300">
+    <Grid>
+        <StackPanel>
+            <Label Content="Name of the Product"></Label>
+            
+            <TextBox Text="{Binding Name}"></TextBox>
+            
+            <Label Content="Product price"></Label>
+            
+            <TextBox Text="{Binding Price}"></TextBox>
+
+            <Button Content="Add!" Command="{Binding AddCommand}"></Button>
+
+
+        </StackPanel>
+    </Grid>
+</Window>

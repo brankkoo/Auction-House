@@ -1,0 +1,59 @@
+﻿<Window x:Class="AuctionHouse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AuctionHouse" xmlns:viewmodel="clr-namespace:AuctionHouse.ViewModel;assembly=AuctionHouse.ViewModel" 
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="800">
+
+
+
+
+    <Grid Margin="0,0,10,396">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="469*"/>
+            <ColumnDefinition Width="321*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+
+
+
+        <ToolBar Margin="10,0,-14,-26" Background="#FF202225" Foreground="WhiteSmoke" Grid.ColumnSpan="2" >
+            <Button Click="Button_Click" Command ="{Binding Path=UserLoginBtn}" IsEnabled="{Binding Path=IsLoggedIn}">
+                <Image x:Name="Login" Source="Icons\icons8-login-64.png" Height="32 " Width="32"></Image>
+            </Button>
+            <Label Content="{Binding Path=CurrentUser.Username, StringFormat=Hi {0}}" FontSize="24"></Label>
+            
+        </ToolBar>
+
+            <ListBox d:Margin="10,79,0,-337" Height="300" Background="#FF202225" Foreground="WhiteSmoke" HorizontalContentAlignment="Left" Margin="10,92,0,-324" Grid.ColumnSpan="2"  ItemsSource="{Binding Products}" SelectedItem="{Binding Product}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                <WrapPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
+                        
+                    <TextBlock Text="Name: "></TextBlock>
+                    <TextBlock Text="{Binding Path=Name}"></TextBlock>
+                    <TextBlock Text="Price: "></TextBlock>
+                        <TextBlock Text="{Binding Path=Price}"></TextBlock>
+                        <TextBlock Text="Last Offer: "></TextBlock>
+                        <TextBlock Text="{Binding Path=LastOffer}"></TextBlock>
+                        <TextBlock Text="Last Bidder: "></TextBlock>
+                        <TextBlock Text="{Binding Path=LastBidder}"></TextBlock>
+                        <TextBlock Text="Time Left: "></TextBlock>
+                        <TextBlock Text="{Binding Path=Time}"></TextBlock>
+                    </WrapPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <WrapPanel Margin="0,379,0,-395" Grid.ColumnSpan="2">
+            <Button Content="Bid"  Foreground="#FFF3F1F1" Background="#FF202225" Height=" 24" Width="183" Command="{Binding Path=BidCommand}" IsEnabled="{Binding Path=IsLoggedIn2}"></Button>
+            <Label Content="$"  FontSize="24" Height="44"></Label>
+            <Button Content="Add Product"  Foreground="#FFF3F1F1" Background="#FF202225" Height=" 24" Width="183" Command="{Binding }" IsEnabled="{Binding Path=CurrentUser.IsAdmin}" Click="Button_Click_1"></Button>
+            <Button Content="Remove Product"  Foreground="#FFF3F1F1" Background="#FF202225" Height=" 24" Width="183" Command="{Binding DeleteCommand }" IsEnabled="{Binding Path=CurrentUser.IsAdmin}"/>
+        </WrapPanel>
+    </Grid>
+</Window>

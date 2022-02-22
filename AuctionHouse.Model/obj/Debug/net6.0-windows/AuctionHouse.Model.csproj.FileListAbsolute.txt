@@ -1,0 +1,12 @@
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\obj\Debug\net6.0-windows\AuctionHouse.Model.csproj.AssemblyReference.cache
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\obj\Debug\net6.0-windows\AuctionHouse.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\obj\Debug\net6.0-windows\AuctionHouse.Model.AssemblyInfoInputs.cache
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\obj\Debug\net6.0-windows\AuctionHouse.Model.AssemblyInfo.cs
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\obj\Debug\net6.0-windows\AuctionHouse.Model.csproj.CoreCompileInputs.cache
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\bin\Debug\net6.0-windows\AuctionHouse.Model.deps.json
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\bin\Debug\net6.0-windows\AuctionHouse.Model.dll
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\bin\Debug\net6.0-windows\ref\AuctionHouse.Model.dll
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\bin\Debug\net6.0-windows\AuctionHouse.Model.pdb
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\obj\Debug\net6.0-windows\AuctionHouse.Model.dll
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\obj\Debug\net6.0-windows\ref\AuctionHouse.Model.dll
+C:\Users\brank\source\repos\AuctionHouse\AuctionHouse.Model\obj\Debug\net6.0-windows\AuctionHouse.Model.pdb

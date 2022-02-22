@@ -1,0 +1,28 @@
+﻿<Window x:Class="AuctionHouse.View.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AuctionHouse.View"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="400" Width="300" Background="#FF202225" Foreground="White">
+    <Grid>
+        <Border CornerRadius="25" Margin="10,10,10,10">
+            <Border.Background>
+                <SolidColorBrush Color="#FFE2E2E2" Opacity="0.5"/>
+            </Border.Background>
+            <StackPanel Visibility="Visible">
+                <Label Content="Login" FontSize="24" HorizontalAlignment="Center" FontFamily="Microsoft JhengHei UI"></Label>
+                <Separator>
+                    
+                </Separator>
+                <Label Content="Username:" FontSize="24" HorizontalAlignment="Left" FontFamily="Microsoft JhengHei UI"></Label>
+                <TextBox Background="WhiteSmoke" Text="{Binding Path=Username,UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <Label Content="Password:" FontSize="24" HorizontalAlignment="Left" FontFamily="Microsoft JhengHei UI"></Label>
+                <TextBox Background="WhiteSmoke" Text="{Binding Path=Password,UpdateSourceTrigger=PropertyChanged}"></TextBox>
+                <Separator></Separator>
+                <Button Height="32" Content="Login" Command="{Binding LoginCommand}" Background="Black" Foreground="WhiteSmoke" FontFamily="Microsoft JhengHei UI"></Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

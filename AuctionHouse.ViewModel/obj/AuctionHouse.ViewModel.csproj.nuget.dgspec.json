@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\brank\\source\\repos\\AuctionHouse\\AuctionHouse.ViewModel\\AuctionHouse.ViewModel.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\brank\\source\\repos\\AuctionHouse\\AuctionHouse.Model\\AuctionHouse.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\brank\\source\\repos\\AuctionHouse\\AuctionHouse.Model\\AuctionHouse.Model.csproj",
+        "projectName": "AuctionHouse.Model",
+        "projectPath": "C:\\Users\\brank\\source\\repos\\AuctionHouse\\AuctionHouse.Model\\AuctionHouse.Model.csproj",
+        "packagesPath": "C:\\Users\\brank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brank\\source\\repos\\AuctionHouse\\AuctionHouse.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\brank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "DynamicData": {
+              "target": "Package",
+              "version": "[7.4.9, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\brank\\source\\repos\\AuctionHouse\\AuctionHouse.ViewModel\\AuctionHouse.ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\brank\\source\\repos\\AuctionHouse\\AuctionHouse.ViewModel\\AuctionHouse.ViewModel.csproj",
+        "projectName": "AuctionHouse.ViewModel",
+        "projectPath": "C:\\Users\\brank\\source\\repos\\AuctionHouse\\AuctionHouse.ViewModel\\AuctionHouse.ViewModel.csproj",
+        "packagesPath": "C:\\Users\\brank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brank\\source\\repos\\AuctionHouse\\AuctionHouse.ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\brank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\brank\\source\\repos\\AuctionHouse\\AuctionHouse.Model\\AuctionHouse.Model.csproj": {
+                "projectPath": "C:\\Users\\brank\\source\\repos\\AuctionHouse\\AuctionHouse.Model\\AuctionHouse.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Caliburn.Micro.Core": {
+              "target": "Package",
+              "version": "[4.0.173, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
